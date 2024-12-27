@@ -1,0 +1,25 @@
+#list
+list2=[2,32,342.22,False,"Data"]
+print(list2)
+#index
+print(list2[0])
+print(list2[1])
+print(list2[2])
+print(list2[3])
+print(list2[4])
+print(list2[-1])
+print(list2[-2])
+print(list2[-3])
+print(list2[-4])
+print(list2[-5])
+ #updating
+list2[0]=3
+list2[-2]=True
+print("The values after updating are",list2)
+ #add
+list2.append(0)
+print("The values after adding",list2)
+ #insert
+list2.insert(3,1)
+print("Ater insertion the values are",list2)
+
